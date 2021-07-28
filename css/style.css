@@ -2,14 +2,30 @@ body {
     background-color: rgb(31, 31, 31);
 }
 
-h1, 
-h2, 
+h1,
+h2,
 p,
 li {
     color: white;
 }
 
+h1,
+h2,
+header p {
+    text-align: center;
+}
+
 a,
 .nav-link {
     color: goldenrod;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+footer {
+    background-color: rgb(31, 31, 31);
 }

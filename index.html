@@ -9,14 +9,12 @@
       <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-      <header class="container-sm">
-          <h1 style="text-align:center">Portfolio</h1>
-          <ul class="nav nav-tabs justify-content-center">
+      <header class="py-3 border-bottom border-white">
+          <h1>Drew Montgomery</h1>
+          <p>Art-loving Web Developer</p>
+          <ul class="nav nav-pills justify-content-center">
               <li class="nav-item">
                 <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About Me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#projects">Projects</a>
@@ -26,57 +24,69 @@
               </li>
             </ul>
       </header>
-      <main class="container">
-          <section id="home">
-              <h2>Drew Montgomery</h2>
-              <p>Web Developer with a Love of the Arts</p>
-              
-          </section>
-          <section id="about">
+      <main class="py-4">
+          <section id="home" class="container py-2">
+            <div class="row">
               <h2>Pleasure to meet you!</h2>
-              <img src="img/man-crop-gs.png" class="img-fluid" alt="Smiling black male">
-              
-              <p>Call me Drew. I am a Front-End Web Developer based in Miami, Florida. My deep passion for learning and trying new things have lead me to explore the world of web development and design. </p>
-              <p>On the side, I'm a self-taught artist, college tutor, and game developer with an insatiable thirst for knowledge. When I'm not hammering away at a site, you can find me nose-deep in a good fictional novel, working on a comic, or developing a new skill entirely.</p>
-              <p>I am familiar with (but not limited to):</p>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Bootstrap</li>
-                <li>Sass</li>
-                <li>Java</li>
-              </ul>
+              <div class="col-sm">
+                <img src="img/man-crop-gs.png" class="img-fluid" alt="Smiling black male">
+              </div>
+              <div class="col-sm">
+                <p>Call me Drew. I am a Front-End Web Developer based in Miami, Florida. My deep passion for learning and trying new things have lead me to explore the world of web development and design. </p>
+                <p>On the side, I'm a self-taught artist, college tutor, and game developer with an insatiable thirst for knowledge. When I'm not hammering away at a site, you can find me nose-deep in a good fictional novel, working on a comic, or developing a new skill entirely.</p>
+                <p>I am familiar with (but not limited to):</p>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Bootstrap</li>
+                  <li>Sass</li>
+                  <li>Java</li>
+                </ul>
+              </div>
+            </div>
           </section>
-          <section id="projects">
+          <section id="projects" class="container py-2">
               <h2>Projects</h2>
-              <div class="project-card">
-                <img src="img/thumbs/dirr-snip.jpg" class="img-thumbnail" alt="">
-                  <p class="title text-center">Employee Directory</p>
-                  <p class="text-center">Using APIs and iteration methods</p>
-                  <p class="text-center"><a href="https://drewm64.github.io/project-8/" target="_blank">Launch this project</a></p>
+              <div class="row">
+                <div class="col-md">
+                  <div class="project-card d-flex flex-column justify-content-center">
+                    <img src="img/thumbs/dirr-snip.jpg" class="img-thumbnail" alt="">
+                      <p class="title text-center">Employee Directory</p>
+                      <p class="text-center">Using APIs and iteration methods</p>
+                      <p class="text-center"><a href="https://drewm64.github.io/project-8/" target="_blank">Launch this project</a></p>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="project-card d-flex flex-column justify-content-center">
+                    <img src="img/thumbs/webapp-snip.jpg" class="img-thumbnail" alt="">
+                      <p class="title text-center">WebApp Dashboard</p>
+                      <p class="text-center">Working with SVG images and JavaScript-driven charts and graphs</p>
+                      <p class="text-center"><a href="https://drewm64.github.io/project-7/" target="_blank">Launch this project</a></p>
+                  </div>
+                </div>
               </div>
-              <div class="project-card">
-                <img src="img/thumbs/webapp-snip.jpg" class="img-thumbnail" alt="">
-                  <p class="title text-center">WebApp Dashboard</p>
-                  <p class="text-center">Working with SVG images and JavaScript-driven charts and graphs</p>
-                  <p class="text-center"><a href="https://drewm64.github.io/project-7/" target="_blank">Launch this project</a></p>
-              </div>
-              <div class="project-card">
-                <img src="img/thumbs/game-snip.jpg" class="img-thumbnail" alt="">
-                  <p class="title text-center">Game Show App</p>
-                  <p class="text-center">A fun phrase-guessing game made using JavaScript</p>
-                  <p class="text-center"><a href="https://drewm64.github.io/project-6/" target="_blank">Launch this project</a></p>
-              </div>
-              <div class="project-card">
-                <img src="img/thumbs/gall-snip.jpg" class="img-thumbnail" alt="">
-                  <p class="title text-center">Photo Gallery</p>
-                  <p class="text-center">An interactive, searchable gallery of photos</p>
-                  <p class="text-center"><a href="https://drewm64.github.io/project-5/" target="_blank">Launch this project</a></p>
+              <div class="row">
+                <div class="col-md">
+                  <div class="project-card d-flex flex-column justify-content-center">
+                    <img src="img/thumbs/game-snip.jpg" class="img-thumbnail" alt="">
+                      <p class="title text-center">Game Show App</p>
+                      <p class="text-center">A fun phrase-guessing game made using JavaScript</p>
+                      <p class="text-center"><a href="https://drewm64.github.io/project-6/" target="_blank">Launch this project</a></p>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="project-card d-flex flex-column justify-content-center">
+                    <img src="img/thumbs/gall-snip.jpg" class="img-thumbnail" alt="">
+                      <p class="title text-center">Photo Gallery</p>
+                      <p class="text-center">An interactive, searchable gallery of photos</p>
+                      <p class="text-center"><a href="https://drewm64.github.io/project-5/" target="_blank">Launch this project</a></p>
+                  </div>
+                </div>
               </div>
               <a href="http://github.com/DrewM64" target="_blank">See other projects on GitHub</a>
           </section>
-          <section id="contact">
+          <section id="contact" class="container py-2">
               <h2>Contact</h2>
               <p>If you'd like to work with me, please, don't be shy!</p>
               <p>Email: <a href="mailto:andrewmontgomery64@gmail.com">andrewmontgomery64@gmail.com</a></p>
@@ -84,7 +94,7 @@
               <p><a href="https://twitter.com/home">Twitter</a></p>
           </section>
       </main>
-      <footer class="d-flex justify-content-between ">
+      <footer class="d-flex justify-content-between border-top border-white p-2 position-sticky bottom-0">
           <p>&copy; Drew Montgomery</p>
           <a href="#" class="d-sm-none">Back to Top</a>
           <ul class="nav justify-content-end d-none d-sm-flex">
@@ -92,13 +102,10 @@
                 <a class="nav-link" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About Me</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
       </footer>
