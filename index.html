@@ -9,91 +9,165 @@
       <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-      <header class="py-3 border-bottom border-white">
-          <h1>Drew Montgomery</h1>
-          <p>Art-loving Web Developer</p>
-          <ul class="nav nav-pills justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
+    <!-- header -->
+    <header class="py-3 border-bottom border-white">
+      <h1>Drew Montgomery</h1>
+      <p>Art-loving Web Developer</p>
+      <ul class="nav nav-pills justify-content-center">
+        <li class="nav-item">
+          <a id="navHome" class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a id="navProjects" class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a id="navContact" class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <main class="py-4">
+<!-- home section -->
+      <section id="home" class="container py-2">
+        <div class="row">
+          <h2>Pleasure to meet you!</h2>
+          <div class="col-md">
+            <img src="img/man-crop-gs.png" class="img-fluid" alt="Smiling black male">
+          </div>
+          <div class="col-md">
+            <p>Call me Drew. I am a Front-End Web Developer based in Miami,
+              Florida. My deep passion for learning and trying new things have
+              lead me to explore the world of web development and design. </p>
+
+            <p>On the side, I'm a self-taught artist, college tutor, and game
+              developer with an insatiable thirst for knowledge. When I'm not
+              hammering away at a site, you can find me nose-deep in a good
+                fictional novel, working on a comic, or developing a new skill
+                entirely.</p>
+            <p>I am familiar with (but not limited to):</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+              <li>Sass</li>
+              <li>Java</li>
             </ul>
-      </header>
-      <main class="py-4">
-          <section id="home" class="container py-2">
-            <div class="row">
-              <h2>Pleasure to meet you!</h2>
-              <div class="col-sm">
-                <img src="img/man-crop-gs.png" class="img-fluid" alt="Smiling black male">
-              </div>
-              <div class="col-sm">
-                <p>Call me Drew. I am a Front-End Web Developer based in Miami, Florida. My deep passion for learning and trying new things have lead me to explore the world of web development and design. </p>
-                <p>On the side, I'm a self-taught artist, college tutor, and game developer with an insatiable thirst for knowledge. When I'm not hammering away at a site, you can find me nose-deep in a good fictional novel, working on a comic, or developing a new skill entirely.</p>
-                <p>I am familiar with (but not limited to):</p>
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>Bootstrap</li>
-                  <li>Sass</li>
-                  <li>Java</li>
-                </ul>
+          </div>
+        </div>
+      </section>
+<!-- projects section -->
+        <section id="projects" class="container py-2">
+          <h2>Projects</h2>
+          <div class="row">
+            <div class="col-md">
+              <div class="project-card d-flex flex-column justify-content-center">
+                <img src="img/thumbs/dirr-snip.jpg" class="img-thumbnail" alt="">
+                <p class="title text-center">Employee Directory</p>
+                <p class="proj-desc text-center">Using APIs and iteration methods</p>
+                <p class="text-center"><a href="https://drewm64.github.io/project-8/" target="_blank">Launch this project</a></p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Employee Directory">More Info</button>
               </div>
             </div>
-          </section>
-          <section id="projects" class="container py-2">
-              <h2>Projects</h2>
-              <div class="row">
-                <div class="col-md">
-                  <div class="project-card d-flex flex-column justify-content-center">
-                    <img src="img/thumbs/dirr-snip.jpg" class="img-thumbnail" alt="">
-                      <p class="title text-center">Employee Directory</p>
-                      <p class="text-center">Using APIs and iteration methods</p>
-                      <p class="text-center"><a href="https://drewm64.github.io/project-8/" target="_blank">Launch this project</a></p>
-                  </div>
+            <div class="col-md">
+              <div class="project-card d-flex flex-column justify-content-center">
+                <img src="img/thumbs/webapp-snip.jpg" class="img-thumbnail" alt="">
+                <p class="title text-center">WebApp Dashboard</p>
+                <p class="proj-desc text-center">Working with SVG images and JavaScript-driven charts and graphs</p>
+                <p class="text-center"><a href="https://drewm64.github.io/project-7/" target="_blank">Launch this project</a></p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="WebApp Dashboard">More Info</button>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md">
+              <div class="project-card d-flex flex-column justify-content-center">
+                <img src="img/thumbs/game-snip.jpg" class="img-thumbnail" alt="">
+                <p class="title text-center">Game Show App</p>
+                <p class="proj-desc text-center">A fun phrase-guessing game made using JavaScript</p>
+                <p class="text-center"><a href="https://drewm64.github.io/project-6/" target="_blank">Launch this project</a></p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Game Show App">More Info</button>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="project-card d-flex flex-column justify-content-center">
+                <img src="img/thumbs/gall-snip.jpg" class="img-thumbnail" alt="">
+                <p class="title text-center">Photo Gallery</p>
+                <p class="proj-desc text-center">An interactive, searchable gallery of photos</p>
+                <p class="text-center"><a href="https://drewm64.github.io/project-5/" target="_blank">Launch this project</a></p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Photo Gallery">More Info</button>
+              </div>
+            </div>
+          </div>
+          <a href="http://github.com/DrewM64" target="_blank">See other projects on GitHub</a>
+      </section>
+      <!-- contact section -->
+        <section id="contact" class="container py-2">
+          <h2>Contact</h2>
+          <p>If you'd like to work with me, please, don't be shy!</p>
+          <div class="social-widgets flex-lg-row">
+            <div class="col-md">
+              <div class="social-container">
+                <div class="social-image" id="svg-email">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/>
+                  </svg>
                 </div>
-                <div class="col-md">
-                  <div class="project-card d-flex flex-column justify-content-center">
-                    <img src="img/thumbs/webapp-snip.jpg" class="img-thumbnail" alt="">
-                      <p class="title text-center">WebApp Dashboard</p>
-                      <p class="text-center">Working with SVG images and JavaScript-driven charts and graphs</p>
-                      <p class="text-center"><a href="https://drewm64.github.io/project-7/" target="_blank">Launch this project</a></p>
-                  </div>
+                <div class="social-text">
+                  <p><a href="mailto:andrewmontgomery64@gmail.com">Email me</a></p>
+                  <p class="social-subtext">AndrewMontgomery64@gmail.com</p>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md">
-                  <div class="project-card d-flex flex-column justify-content-center">
-                    <img src="img/thumbs/game-snip.jpg" class="img-thumbnail" alt="">
-                      <p class="title text-center">Game Show App</p>
-                      <p class="text-center">A fun phrase-guessing game made using JavaScript</p>
-                      <p class="text-center"><a href="https://drewm64.github.io/project-6/" target="_blank">Launch this project</a></p>
-                  </div>
+            </div>
+            <div class="col-md">
+              <div class="social-container mx-lg-2">
+                <div class="social-image" id="svg-linkin">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
                 </div>
-                <div class="col-md">
-                  <div class="project-card d-flex flex-column justify-content-center">
-                    <img src="img/thumbs/gall-snip.jpg" class="img-thumbnail" alt="">
-                      <p class="title text-center">Photo Gallery</p>
-                      <p class="text-center">An interactive, searchable gallery of photos</p>
-                      <p class="text-center"><a href="https://drewm64.github.io/project-5/" target="_blank">Launch this project</a></p>
-                  </div>
+                <div class="social-text">
+                  <p><a href="https://www.linkedin.com/in/andrew-montgomery-b90136218/" target="_blank">LinkedIn</a></p>
                 </div>
               </div>
-              <a href="http://github.com/DrewM64" target="_blank">See other projects on GitHub</a>
-          </section>
-          <section id="contact" class="container py-2">
-              <h2>Contact</h2>
-              <p>If you'd like to work with me, please, don't be shy!</p>
-              <p>Email: <a href="mailto:andrewmontgomery64@gmail.com">andrewmontgomery64@gmail.com</a></p>
-              <p><a href="https://www.linkedin.com/in/andrew-montgomery-b90136218/">LinkedIn</a></p>
-              <p><a href="https://twitter.com/home">Twitter</a></p>
-          </section>
-      </main>
+            </div>
+            <div class="col-md">
+              <div class="social-container">
+                <div class="social-image" id="svg-twit">
+                  <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"/>
+                  </svg>
+                </div>
+                <div class="social-text">
+                  <p><a href="https://twitter.com/home" target="_blank">Twitter</a></p>
+                </div>
+              </div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/thumbs/game-snip.jpg" class="img-thumbnail" alt="">
+                <p class="title text-center">Game Show App</p>
+                <p class="proj-desc text-center">A fun phrase-guessing game made using JavaScript</p>
+                <p class="text-center"><a href="https://drewm64.github.io/project-6/" target="_blank">Launch this project</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
       <footer class="d-flex justify-content-between border-top border-white p-2 position-sticky bottom-0">
           <p>&copy; Drew Montgomery</p>
           <a href="#" class="d-sm-none">Back to Top</a>
@@ -110,5 +184,6 @@
             </ul>
       </footer>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="app.js"></script>
   </body>
 </html>
