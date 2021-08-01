@@ -42,6 +42,18 @@ footer {
     margin-bottom: 20px;
 }
 
+.btn-project {
+    color: goldenrod;
+    border: goldenrod solid 5px;
+    
+}
+
+.btn-project:hover {
+    color: white;
+    box-shadow: white 0 0 5px 2px,
+                goldenrod 0 0 10px 5px;
+}
+
 /* social widgets */
 .social-widgets {
     display: flex;
