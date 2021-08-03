@@ -65,7 +65,7 @@
                 <p class="title text-center">Employee Directory</p>
                 <p class="proj-desc text-center d-lg-none">Using APIs and iteration methods</p>
                 <p class="text-center d-lg-none"><a href="https://drewm64.github.io/project-8/" target="_blank">Launch this project</a></p>
-                <button type="button" class="btn btn-project d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Employee Directory">More Info</button>
+                <button type="button" class="btn btn-project d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#directoryModal" data-bs-whatever="Employee Directory">More Info</button>
               </div>
             </div>
             <div class="col-md">
@@ -74,7 +74,7 @@
                 <p class="title text-center">WebApp Dashboard</p>
                 <p class="proj-desc text-center d-lg-none">Working with SVG images and JavaScript-driven charts and graphs</p>
                 <p class="text-center d-lg-none"><a href="https://drewm64.github.io/project-7/" target="_blank">Launch this project</a></p>
-                <button type="button" class="btn btn-project d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="WebApp Dashboard">More Info</button>
+                <button type="button" class="btn btn-project d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#webappModal" data-bs-whatever="WebApp Dashboard">More Info</button>
               </div>
             </div>
           </div>
@@ -85,7 +85,7 @@
                 <p class="title text-center">Game Show App</p>
                 <p class="proj-desc text-center d-lg-none">A fun phrase-guessing game made using JavaScript</p>
                 <p class="text-center d-lg-none"><a href="https://drewm64.github.io/project-6/" target="_blank">Launch this project</a></p>
-                <button type="button" class="btn btn-project d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Game Show App">More Info</button>
+                <button type="button" class="btn btn-project d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#gameModal" data-bs-whatever="Game Show App">More Info</button>
               </div>
             </div>
             <div class="col-md">
@@ -94,7 +94,7 @@
                 <p class="title text-center">Photo Gallery</p>
                 <p class="proj-desc text-center d-lg-none">An interactive, searchable gallery of photos</p>
                 <p class="text-center d-lg-none"><a href="https://drewm64.github.io/project-5/" target="_blank">Launch this project</a></p>
-                <button type="button" class="btn btn-project d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Photo Gallery">More Info</button>
+                <button type="button" class="btn btn-project d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-whatever="Photo Gallery">More Info</button>
               </div>
             </div>
           </div>
@@ -146,19 +146,71 @@
         </section>
     </main>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- Modals -->
+<div class="modal fade" id="directoryModal" tabindex="-1" aria-labelledby="directoryModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h5 class="modal-title" id="directoryModalLabel">Employee Directory</h5>
+      </div>
+      <div class="modal-body">
+        <img src="img/thumbs/dirr-snip.jpg" class="img-thumbnail" alt="">
+                <p class="modal-desc text-center">A directory of random employees made using APIs and iteration methods. Click on a card to see more information!</p>
+                <p class="text-center"><a href="https://drewm64.github.io/project-8/" target="_blank">Launch this project</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="webappModal" tabindex="-1" aria-labelledby="webappModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="webappModalLabel">WebApp Dashboard</h5>
+      </div>
+      <div class="modal-body">
+        <img src="img/thumbs/webapp-snip.jpg" class="img-thumbnail" alt="">
+                <p class="modal-desc text-center">An interactive dashboard application made using SVG images and JavaScript-driven charts and graphs. Mess around with all the widgets! </p>
+                <p class="text-center"><a href="https://drewm64.github.io/project-7/" target="_blank">Launch this project</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="gameModal" tabindex="-1" aria-labelledby="gameModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="gameModalLabel">Game Show App</h5>
       </div>
       <div class="modal-body">
         <img src="img/thumbs/game-snip.jpg" class="img-thumbnail" alt="">
-                <p class="title text-center">Game Show App</p>
-                <p class="proj-desc text-center">A fun phrase-guessing game made using JavaScript</p>
+                <p class="modal-desc text-center">A fun phrase-guessing game made using JavaScript. Click on the letters to gradually reveal the phrase. Try not to miss more than 5 letters!</p>
                 <p class="text-center"><a href="https://drewm64.github.io/project-6/" target="_blank">Launch this project</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="galleryModalLabel">Photo Gallery</h5>
+      </div>
+      <div class="modal-body">
+        <img src="img/thumbs/gall-snip.jpg" class="img-thumbnail" alt="">
+                <p class="modal-desc text-center">An interactive, searchable gallery of photos. Search for images using keywords, and click on an image to enlarge it!</p>
+                <p class="text-center"><a href="https://drewm64.github.io/project-5/" target="_blank">Launch this project</a></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -184,6 +236,5 @@
             </ul>
       </footer>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-      <script src="app.js"></script>
   </body>
 </html>

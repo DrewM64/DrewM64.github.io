@@ -110,8 +110,21 @@ footer {
     margin: 0;
 }
 
-/*
-Kontext - layered sliding transition
-https://codepen.io/hakimel/details/FAiKv
- */
+/* modal styling */
 
+.modal-header {
+    border-bottom: goldenrod solid 1px;
+}
+
+.modal-footer {
+    border-top: goldenrod solid 1px;
+}
+
+.modal-content {
+    background-color: rgb(24, 24, 24);
+    box-shadow: goldenrod 0 0 5px 2px;
+}
+
+.modal-title {
+    color: white;
+}
